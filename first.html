@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <style>
+            @font-face {
+                font-family: cyberPunk;
+                src: url(cyberspace.ttf);
+                
+            }
+            @font-face {
+                font-family: cyborg;
+                src: url(cyborg.ttf);
+                
+            }
+            
+            h1,h2 {
+                font-family: cyborg;
+                color: blue;
+            }
+            p {
+                font-family: cyberPunk;
+            }
+        </style>
+        <title>
+            Where's Waldo? Cyberspace Version
+        </title>
+        
+        <script type="text/javascript" src="answers.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mb-5 mt-4">
+                <h2>
+                    Welcome to CyberSpace!<br> 
+                </h2>
+            </div>
+            <div class="row">
+                <h2>
+                    enter the correct password<br>
+                </h2>
+                <p class="bg-dark">
+                    <a class="text-primary">01100011</a>
+                    <a class="text-danger">01111001</a>
+                    <a class="text-danger">01101110</a>
+                    <a class="text-primary">01110011</a>
+                    <a class="text-danger">01101011</a>
+                    
+                    <a class="text-primary">01110000</a>
+                    <a class="text-primary">01100001</a>
+                    <a class="text-danger">01100101 </a>
+                    <a class="text-danger">01101101 </a>
+                    <a class="text-danger">01101111  </a>
+                    <a class="text-primary">01100101</a> 
+                </p>
+               
+            </div>
+            <div class="row mt-3">
+                <div class="input-group">
+                    <input type="text" placeholder="" id="firstword">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="addPwd" onclick="firstWord()">Enter</button>
+                    </div>
+                </div>
+                <h2 id="status">
+                </h2>
+<!--
+                <div class="form-group">
+                    <label>Input password</label>
+                    <input type="text">
+                </div>
+-->
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
